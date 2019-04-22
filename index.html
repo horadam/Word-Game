@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="root">
+        <form id="form">
+            <h1 id="display"></h1>
+            <div id="turnsLeft">Turns left: 
+                <span></span>
+            </div>
+            <input for="form" type="text" maxlength="1" id="guess" />
+            <button for="form" type="submit" id="check">Check</button>
+            <h3>Graveyard:</h3>
+            <p id="graveyard"></p>
+        </form> 
+    </div>
+
+    <script src="pubsub.js"></script>
+    <script src="game.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
